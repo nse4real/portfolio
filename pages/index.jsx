@@ -46,6 +46,27 @@ export default function Home() {
 
   const projects = [
     {
+      id: 'sentinel2-ndvi',
+      title: 'Sentinel-2 NDVI Pipeline',
+      description: 'Earth observation mini-pipeline demonstrating remote access to Sentinel-2 COGs, AOI-based clipping, NDVI computation, and reproducible geospatial outputs',
+      tags: ['Geospatial', 'Remote Sensing', 'Python', 'GDAL'],
+      github: 'https://github.com/nse4real/sentinel2-ndvi-pipeline'
+    },
+    {
+      id: 'object-detection',
+      title: 'Object Detection & Segmentation',
+      description: 'Comparative implementation of modern object detection and segmentation models (YOLOv8, Mask R-CNN) with architectural analysis',
+      tags: ['Computer Vision', 'Deep Learning', 'YOLO', 'Object Detection'],
+      github: 'https://github.com/nse4real/object-detection-segmentation-yolo-maskrcnn'
+    },
+    {
+      id: 'urban-eo',
+      title: 'Urban EO Risk Analytics',
+      description: 'Earth-observation analytics for urban growth and flood risk, built around decision trade-offs, interpretability, and what actually works under time pressure',
+      tags: ['Earth Observation', 'Risk Analysis', 'Urban Planning'],
+      github: 'https://github.com/nse4real/urban-eo-risk-analytics'
+    },
+    {
       id: 'grid-supply',
       title: 'GridSupplyForecast-Day1',
       description: 'Time series forecasting for power grid supply optimization',
@@ -125,7 +146,7 @@ export default function Home() {
         {/* Navigation */}
         <nav className={`nav ${isLoaded ? 'loaded' : ''}`}>
           <div className="nav-content">
-            <a href="#home" className="nav-logo">NSE4REAL</a>
+            <a href="#home" className="nav-logo">Simon Nsenam Udoh</a>
             <div className="nav-links">
               {['about', 'featured', 'projects', 'contact'].map((section) => (
                 <a 
@@ -368,11 +389,11 @@ export default function Home() {
 
         .nav-logo {
           font-family: 'JetBrains Mono', monospace;
-          font-weight: 700;
-          font-size: 1.2rem;
-          color: var(--accent);
+          font-weight: 600;
+          font-size: 1rem;
+          color: #00d9ff !important;
           text-decoration: none;
-          letter-spacing: -0.02em;
+          letter-spacing: 0.02em;
         }
 
         .nav-links {
@@ -381,7 +402,7 @@ export default function Home() {
         }
 
         .nav-links a {
-          color: var(--text-secondary);
+          color: #e2e8f0 !important;
           text-decoration: none;
           font-size: 0.9rem;
           text-transform: uppercase;
