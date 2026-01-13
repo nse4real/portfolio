@@ -46,6 +46,13 @@ export default function Home() {
 
   const projects = [
     {
+      id: 'energy-streaming',
+      title: 'Energy Streaming Pipeline',
+      description: 'Real-time energy price monitoring system using Kafka, Spark, and PostgreSQL',
+      tags: ['Data Engineering', 'Kafka', 'Spark Streaming', 'Real-time'],
+      github: 'https://github.com/nse4real/energy-streaming-pipeline'
+    },
+    {
       id: 'sentinel2-ndvi',
       title: 'Sentinel-2 NDVI Pipeline',
       description: 'Earth observation mini-pipeline demonstrating remote access to Sentinel-2 COGs, AOI-based clipping, NDVI computation, and reproducible geospatial outputs',
