@@ -141,8 +141,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>NSE4REAL - Data Engineer & ML Specialist</title>
-        <meta name="description" content="Data engineer specializing in production ML systems, resource-constrained optimization, and scalable data pipelines." />
+        <title>NSE4REAL - Analytics Engineer & ML Specialist</title>
+        <meta name="description" content="Analytics engineer specializing in production ML systems, resource-constrained optimization, and scalable data pipelines." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -153,7 +153,7 @@ export default function Home() {
         {/* Navigation */}
         <nav className={`nav ${isLoaded ? 'loaded' : ''}`}>
           <div className="nav-content">
-            <a href="#home" className="nav-logo">Simon Nsenam Udoh</a>
+            <a href="#home" className="nav-logo">Senam (Simon) Udoh</a>
             <div className="nav-links">
               {['about', 'featured', 'projects', 'contact'].map((section) => (
                 <a 
@@ -171,7 +171,7 @@ export default function Home() {
         {/* Hero Section */}
         <section id="home" className={`hero ${isLoaded ? 'loaded' : ''}`}>
           <div className="hero-content">
-            <div className="hero-label">DATA ENGINEER</div>
+            <div className="hero-label">ANALYTICS ENGINEER</div>
             <h1 className="hero-title">
               Building production ML systems
               <br />
@@ -198,7 +198,7 @@ export default function Home() {
             <div className="about-grid">
               <div className="about-text">
                 <p>
-                  I'm a data engineer who builds ML systems that actually work in production. Not the kind that look 
+                  I'm an analytics engineer who builds ML systems that actually work in production. Not the kind that look 
                   impressive in demos but fall apart under real constraints.
                 </p>
                 <p>
@@ -318,7 +318,7 @@ export default function Home() {
             </h2>
             <div className="contact-content">
               <p>
-                Looking for a data engineer who understands production constraints and ships working systems? 
+                Looking for an analytics engineer who understands production constraints and ships working systems? 
                 Let's talk about your next project.
               </p>
               <a href="mailto:simon.n.udoh@gmail.com" className="btn-primary">Send Email</a>
